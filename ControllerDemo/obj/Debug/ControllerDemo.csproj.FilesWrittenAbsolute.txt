@@ -1,0 +1,5 @@
+/Users/payeldutta/Projects/ControllerDemo/ControllerDemo/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/payeldutta/Projects/ControllerDemo/ControllerDemo/bin/Debug/ControllerDemo.dll.mdb
+/Users/payeldutta/Projects/ControllerDemo/ControllerDemo/bin/Debug/ControllerDemo.dll
+/Users/payeldutta/Projects/ControllerDemo/ControllerDemo/obj/Debug/ControllerDemo.dll
+/Users/payeldutta/Projects/ControllerDemo/ControllerDemo/obj/Debug/ControllerDemo.dll.mdb
