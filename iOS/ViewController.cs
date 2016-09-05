@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Foundation;
 using UIKit;
 using System.Collections.Generic;
 
@@ -47,25 +47,35 @@ namespace ControllerDemo.iOS
 			callButton.TouchUpInside += (object sender, EventArgs e) =>
 			{
 				PhoneNumbers.Add(translatedNumber);
-			}
-		}
-		public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
-		{
-			base.PrepareForSegue(segue, sender);
-
-			// set the View Controller that’s powering the screen we’re
-			// transitioning to
-
-			var callHistoryContoller = segue.DestinationViewController as CallHistoryController;
-
-			//set the Table View Controller’s list of phone numbers to the
-			// list of dialed phone numbers
-
-			if (callHistoryContoller != null)
+			};
+			callHistoryButton.TouchUpInside += (object sender, EventArgs e) =>
 			{
-				callHistoryContoller.PhoneNumbers = PhoneNumbers;
-			}
+				// Launches a new instance of CallHistoryController
+				CallHistoryController callHistory = this.Storyboard.InstantiateViewController("CallHistoryController") as CallHistoryController;
+				if (callHistory != null)
+				{
+					callHistory.PhoneNumbers = PhoneNumbers;
+					this.NavigationController.PushViewController(callHistory, true);
+				}
+			};
 		}
+		//public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
+		//{
+		//	base.PrepareForSegue(segue, sender);
+
+		//	// set the View Controller that’s powering the screen we’re
+		//	// transitioning to
+
+		//	var callHistoryContoller = segue.DestinationViewController as CallHistoryController;
+
+		//	//set the Table View Controller’s list of phone numbers to the
+		//	// list of dialed phone numbers
+
+		//	if (callHistoryContoller != null)
+		//	{
+		//		callHistoryContoller.PhoneNumbers = PhoneNumbers;
+		//	}
+		//}
 	}
 }
 		

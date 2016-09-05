@@ -27,6 +27,10 @@ namespace ControllerDemo.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIView cut { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel headingLabel { get; set; }
 
         [Outlet]
@@ -36,10 +40,6 @@ namespace ControllerDemo.iOS
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton translateButton { get; set; }
-
-        [Action ("CallHistoryButton_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void CallHistoryButton_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
@@ -51,6 +51,11 @@ namespace ControllerDemo.iOS
             if (callHistoryButton != null) {
                 callHistoryButton.Dispose ();
                 callHistoryButton = null;
+            }
+
+            if (cut != null) {
+                cut.Dispose ();
+                cut = null;
             }
 
             if (headingLabel != null) {
