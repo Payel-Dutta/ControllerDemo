@@ -10,18 +10,23 @@ namespace ControllerDemo.iOS
 	{
 		// class-level declarations
 
-		public override UIWindow Window
-		{
-			get;
-			set;
-		}
+		UIWindow window;
+		public RootViewController RootViewController { get { return window.RootViewController as RootViewController; } }
 
 		public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
 		{
 			// Override point for customization after application launch.
 			// If not required for your application you can safely delete this method
+			window = new UIWindow(UIScreen.MainScreen.Bounds);
+
+			// If you have defined a root view controller, set it here:
+			window.RootViewController = new RootViewController();
+
+			// make the window visible
+			window.MakeKeyAndVisible();
 
 			return true;
+
 		}
 
 		public override void OnResignActivation(UIApplication application)

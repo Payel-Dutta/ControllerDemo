@@ -117,7 +117,6 @@
     <InterfaceDefinition Include="IntroController.xib" />
     <InterfaceDefinition Include="SIdeMenuController.xib" />
     <InterfaceDefinition Include="BaseController.xib" />
-    <InterfaceDefinition Include="MyViewController.xib" />
     <InterfaceDefinition Include="ContentController.xib" />
   </ItemGroup>
   <ItemGroup>

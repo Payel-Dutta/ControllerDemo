@@ -35,3 +35,12 @@
 /Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/bin/iPhoneSimulator/Debug/ControllerDemo.iOS.exe.mdb
 /Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/bin/iPhoneSimulator/Debug/ControllerDemo.iOS.exe
 /Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/CallHistoryController.nib
+/Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/obj/iPhoneSimulator/Debug/ibtool/BaseController.nib
+/Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/obj/iPhoneSimulator/Debug/ibtool/ContentController.nib
+/Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/obj/iPhoneSimulator/Debug/ibtool/IntroController.nib
+/Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/obj/iPhoneSimulator/Debug/ibtool/MyViewController.nib
+/Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/obj/iPhoneSimulator/Debug/ibtool/NavController.nib
+/Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/obj/iPhoneSimulator/Debug/ibtool/RootViewController.nib
+/Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/obj/iPhoneSimulator/Debug/ibtool/SIdeMenuController.nib
+/Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/obj/iPhoneSimulator/Debug/optimized/threelines.png
+/Users/payeldutta/Desktop/Payel/ControllerDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin-Sidebar-Unified.dll

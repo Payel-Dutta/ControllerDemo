@@ -6,20 +6,27 @@ namespace ControllerDemo.iOS
 {
 	public partial class RootViewController : UIViewController
 	{
-		public RootViewController() : base("RootViewController", null)
+		// the sidebar controller for the app
+		public SidebarNavigation.SidebarController SidebarController { get; private set; }
+
+		// the navigation controller
+		public NavController NavController { get; private set; }
+
+		public RootViewController() : base(null, null)
 		{
+
 		}
 
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
-			// Perform any additional setup after loading the view, typically from a nib.
-		}
-
-		public override void DidReceiveMemoryWarning()
-		{
-			base.DidReceiveMemoryWarning();
-			// Release any cached data, images, etc that aren't in use.
+			this.View.BackgroundColor = UIColor.Red;
+			// create a slideout navigation controller with the top navigation controller and the menu view controller
+			NavController = new NavController();
+			NavController.PushViewController(new IntroController(), false);
+			SidebarController = new SidebarNavigation.SidebarController(this, NavController, new SIdeMenuController());
+			SidebarController.MenuWidth = 100;
+			SidebarController.ReopenOnRotate = false;
 		}
 	}
 }

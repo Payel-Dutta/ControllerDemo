@@ -143,4 +143,7 @@
         <simulatedScreenMetrics key="destination" type="retina47"/>
         <simulatedOrientationMetrics key="orientation"/>
     </simulatedMetricsContainer>
+    <resources>
+        <image name="threelines.png" width="30" height="30"/>
+    </resources>
 </document>
