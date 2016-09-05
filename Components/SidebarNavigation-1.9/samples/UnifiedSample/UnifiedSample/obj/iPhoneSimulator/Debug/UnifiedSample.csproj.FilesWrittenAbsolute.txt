@@ -1,0 +1,12 @@
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/obj/iPhoneSimulator/Debug/optimized/Default-568h@2x.png
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/obj/iPhoneSimulator/Debug/optimized/
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/bin/iPhoneSimulator/Debug/UnifiedSample.exe.mdb
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/bin/iPhoneSimulator/Debug/UnifiedSample.exe
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/obj/iPhoneSimulator/Debug/UnifiedSample.exe
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/obj/iPhoneSimulator/Debug/UnifiedSample.exe.mdb
+/Users/payeldutta/Desktop/Payel/ControllerDemo/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/bin/iPhoneSimulator/Debug/Xamarin-Sidebar-Unified.dll
