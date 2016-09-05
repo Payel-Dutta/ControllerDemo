@@ -112,6 +112,13 @@
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="RootViewController.xib" />
+    <InterfaceDefinition Include="NavController.xib" />
+    <InterfaceDefinition Include="IntroController.xib" />
+    <InterfaceDefinition Include="SIdeMenuController.xib" />
+    <InterfaceDefinition Include="BaseController.xib" />
+    <InterfaceDefinition Include="MyViewController.xib" />
+    <InterfaceDefinition Include="ContentController.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -129,12 +136,39 @@
     <Compile Include="CallHistoryController.designer.cs">
       <DependentUpon>CallHistoryController.cs</DependentUpon>
     </Compile>
+    <Compile Include="RootViewController.cs" />
+    <Compile Include="RootViewController.designer.cs">
+      <DependentUpon>RootViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavController.cs" />
+    <Compile Include="NavController.designer.cs">
+      <DependentUpon>NavController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroController.cs" />
+    <Compile Include="IntroController.designer.cs">
+      <DependentUpon>IntroController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SIdeMenuController.cs" />
+    <Compile Include="SIdeMenuController.designer.cs">
+      <DependentUpon>SIdeMenuController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseController.cs" />
+    <Compile Include="BaseController.designer.cs">
+      <DependentUpon>BaseController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContentController.cs" />
+    <Compile Include="ContentController.designer.cs">
+      <DependentUpon>ContentController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="SidebarNavigation">
       <Version>1.9</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\threelines.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
